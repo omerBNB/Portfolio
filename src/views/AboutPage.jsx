@@ -33,8 +33,14 @@ export function AboutPage() {
               <small>10+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat error nostrum ullam ex blanditiis molestiae laudantium debitis vero, excepturi amet provident, eaque architecto praesentium esse officiis non distinctio id corporis.</p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <p>
+            Served as a soldier in 8200 - IDF special intelligence unit and led small teams in
+            important missions throughout the Middle East. Gravitex's former Co-Owner and
+            Co-Founder, and recent graduate of Full-Stack Bootcamp .
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
