@@ -1,0 +1,22 @@
+// Tablets
+
+@media (max-width: 1024px) {
+    .container{
+        width: $container-width-md;
+    }
+    section {
+        margin-block-start: 6rem;
+    }
+
+}
+
+//Mobile
+
+@media (max-width: 600px) {
+    .container{
+        width: $container-width-ms;
+    }
+    section > h2 {
+        margin-block-end: 2rem;
+    }
+}

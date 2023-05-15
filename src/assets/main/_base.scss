@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import './_variables.scss';
+
+* > {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $color-bg;
+  color: $color-white;
+  line-height: 1.7;
+  background-image: url(../../imgs/bg-texture.png);
+  
+}
+// ******** GENERAL STYLES ******** //
+
+.flex {
+  display: flex;
+}
+.container {
+  width: $container-width-lg;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  margin: 0px;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-block-start: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: $color-light;
+}
+
+section > h2 {
+  color: $color-primary;
+  margin-block-end: 3rem;
+}
+
+.text-light {
+  color: $color-light;
+}
+
+a {
+  color: $color-primary;
+  transition: $transition;
+}
+
+a:hover {
+  color: $color-white;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: $color-primary;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid $color-primary;
+  transition: $transition;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: $color-white;
+  color: $color-bg;
+  border-color: transparent;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  color: $color-bg;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
