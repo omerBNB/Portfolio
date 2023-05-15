@@ -1,6 +1,7 @@
 import React from 'react'
 import AirgptImg from '../imgs/airgpt.png'
 import Bitcoin from '../imgs/bitcoin.png'
+import Vanila from '../imgs/vanila.png'
 
 export function Portfolio() {
   return (
@@ -13,7 +14,7 @@ export function Portfolio() {
             <img src={AirgptImg} alt="" />
           </div>
           <h3>AirGpt</h3>
-          <h5>Airbnb replicate: Framework - Vue , Backend - Node.js, Database - MongoDB</h5>
+          <h5>Airbnb replicate: Framework - Vue, Node.js, MongoDB</h5>
           <div className="portfolio-item-cta">
             <a href="https://github.com/omerBNB/AirGPT" className="btn" target="_blank">
               Github
@@ -43,15 +44,18 @@ export function Portfolio() {
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-img">
-            <img src={AirgptImg} alt="" />
+            <img src={Vanila} alt="" />
           </div>
-          <h3>This is portfolio a item title</h3>
-          <h5>test</h5>
+          <h3>Meme Genarator</h3>
+          <h5>Full Vanilla Js Project with full Using the MVC Method</h5>
           <div className="portfolio-item-cta">
-            <a href="" className="btn" target="_blank">
+            <a href="https://github.com/omerBNB/meme-gen" className="btn" target="_blank">
               Github
             </a>
-            <a href="" className="btn btn-primary" target="_blank">
+            <a
+              href="https://omerbnb.github.io/meme-gen/"
+              className="btn btn-primary"
+              target="_blank">
               Live Demo
             </a>
           </div>

@@ -18,7 +18,7 @@ function App() {
       <main>
         <AboutPage/>
         <ExperiencePage/>
-        <Services/>
+        {/* <Services/> */}
         <Portfolio />
         <ContactMe />
       </main>
